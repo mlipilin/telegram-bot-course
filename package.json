@@ -1,0 +1,22 @@
+{
+  "name": "telegram-bot-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://mlipilin.github.io/telegram-bot-course",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "deploy": "gh-pages -d ./",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Mikhail Lipilin <lipilin.m@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.57.0",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
